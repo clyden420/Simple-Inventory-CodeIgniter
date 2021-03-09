@@ -1,0 +1,86 @@
+.bg-light {
+    background-color: cornflowerblue;
+}
+
+.notfound{
+    display: none;
+  }
+
+  .error{
+      color:red;
+  }
+
+  .light{
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    padding: 4.5rem;
+    padding-bottom: 5.5rem;
+  }
+
+  .button{
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .btn-size{
+    width: 5em;
+  }
+
+  input:disabled {
+    background: #fff;
+    border-style: none;
+  }
+
+
+  /*  */
+
+  .login-btn {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 80px;
+  }
+
+  .login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+  }
+
+  .uppercase{
+    text-transform: uppercase;
+  }
+  
+  .panel {
+    background: hsla(152, 100%, 50%, 1);
+    background: linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(152, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#00FF87", endColorstr="#60EFFF", GradientType=1 );
+    border-radius: 10px;
+    padding: 35px 45px;
+    width: 100%;
+    max-width: 500px;
+
+    display: flex;
+    flex-direction: column;
+ 
+  }
+
+  .userpw-box{    
+    width: 100%;
+    height: 100%;
+    
+  }
+  
+  .user-icon{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    background-size: contain;
+    background-image: url(https://pbs.twimg.com/profile_images/725321660484583424/ArQ4fM3k.jpg);
+    margin: auto;
+  }
